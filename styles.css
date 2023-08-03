@@ -1,0 +1,29 @@
+* {
+    font-family: "Plus Jakarta Sans";
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Image Styling */
+.bbq-img,
+.miso-img {
+    height: auto;
+    width: 923px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1%;
+}
+
+.taco-img {
+    height: auto;
+    width: 500px;
+    margin-left: 22%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3%;
+}
+
+/* Description Styling */
