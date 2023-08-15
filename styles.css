@@ -31,4 +31,36 @@ h1 {
     margin: auto;
 }
 
+/* Formatting for when on a shrunken laptop screen */
+@media (max-width: 770px) {
+
+    .bbq-img,
+    .miso-img {
+        height: auto;
+        width: 730px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 1%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+/* Formatting for mobile devices*/
+@media (max-width: 400px) {
+
+    .bbq-img,
+    .miso-img {
+        height: auto;
+        width: 340px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 1%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
 /* Description Styling */
