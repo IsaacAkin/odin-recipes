@@ -7,11 +7,17 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: auto;
+    width: 750px;
+    margin-bottom: 10px;
+}
+
 /* Image Styling */
 .bbq-img,
 .miso-img {
     height: auto;
-    width: 923px;
+    width: 750px;
     border-style: solid;
     border-width: 2px;
     border-radius: 1%;
@@ -64,3 +70,15 @@ h1 {
 }
 
 /* Description Styling */
+p {
+    margin: auto;
+    width: 750px;
+    font-size: larger;
+}
+
+.recipe-ul,
+.recipe-ol {
+    margin: auto;
+    width: 700px;
+    font-size: larger;
+}
