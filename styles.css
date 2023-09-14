@@ -13,6 +13,12 @@ h2 {
     margin-bottom: 10px;
 }
 
+div.recipe-list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 /* Image Styling */
 .bbq-img,
 .miso-img {
